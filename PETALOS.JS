@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const productos = [
       {
         id: 1,
-        nombre: "Rosa Encantada",
-        descripcion: "Flor eterna en cúpula de cristal",
-        imagen: "https://via.placeholder.com/200x200?text=Rosa"
+        nombre: "Girasol Encantado",
+        descripcion: "Girasol Eterno Y Tres Hermosos Tulipanes",
+        imagen: "girasol.jpg"
       },
       {
         id: 2,
