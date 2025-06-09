@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>MayePetals - Flores Eternas</title>
+  <link rel="stylesheet" href="PETALOS.CSS" />
+</head>
+<body>
+  <h1>🌸 MayePetals - Flores Eternas 🌸</h1>
+
+  <div id="catalogo"></div>
+
+  <hr />
+  <h2>¿Te gustó alguna? Déjanos tus datos:</h2>
+  <form id="formulario">
+    <label>Tu nombre:</label><br />
+    <input type="text" name="nombre" required /><br /><br />
+
+    <label>Tu correo electrónico:</label><br />
+    <input type="email" name="email" required /><br /><br />
+
+    <label>Tu número de contacto:</label><br />
+    <input type="text" name="telefono" required /><br /><br />
+
+    <label>Número de la opción que te gustó:</label><br />
+    <input type="text" name="opcion" required /><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="mensaje"></p>
+
+  <!-- Carga primero la librería EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Luego carga tu código -->
+  <script src="PETALOS.JS"></script>
+</body>
+</html>
